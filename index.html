@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Food</title>
+
+    <!-- Liên kết đến trang font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <!-- Liên kết đến trang css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Tiêu đề bắt đầu -->
+
+    <section class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-utensils"></i> Restaurant Food </a>
+
+        <nav class="navbar">
+            <a href="#home">Trang chủ</a>
+            <a href="#about">Về chúng tôi</a>
+            <a href="#food">Món ngon</a>
+            <a href="#gallery">Món ăn nổi tiếng</a>
+            <a href="#menu">Thực đơn</a>
+            <a href="#order">Đặt món</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </section>
+
+    <!-- Phần tiêu đề kết thúc -->
+
+    <!-- Phần trang chủ -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+                    <div class="content">
+                        <span>Nổi bật</span>
+                        <h3>Nhà hàng sang trọng</h3>
+                        <a href="#" class="btn">Bắt đầu ngay</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+                    <div class="content">
+                        <span>Nổi bật</span>
+                        <h3>Đầu bếp tài năng</h3>
+                        <a href="#" class="btn">Bắt đầu ngay</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+                    <div class="content">
+                        <span>Nổi bật</span>
+                        <h3>Bồi bàn thân thiện</h3>
+                        <a href="#" class="btn">Bắt đầu ngay</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- Kết thúc phần trang chủ -->
+
+    <!-- Trang Về chúng tôi -->
+
+    <section class="about" id="about">
+
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="title">Chào mừng đến với nhà hàng của chúng tôi</h3>
+            <p>Mang đến trải nghiệm ẩm thực bằng triết lý và niềm tin về tính trọn vẹn. Tinh hoa văn hoá ẩm thực Việt Nam mang nhiều dấu ấn độc đáo, phản ánh đời sống tinh thần cũng như quan niệm sống nhân văn của người Việt từ bao thế hệ đã trở thành nguồn
+                cảm hứng cho triết lý về tính trọn vẹn trong trải nghiệm ẩm thực của chúng tôi</p>
+            <a href="#" class="btn">Xem thêm</a>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="images/about-icon-1.png" alt="">
+                    <h3>Thực phẩm sạch</h3>
+                </div>
+                <div class="icons">
+                    <img src="images/about-icon-2.png" alt="">
+                    <h3>Đồ ăn & Thức uống hấp dẫn</h3>
+                </div>
+                <div class="icons">
+                    <img src="images/about-icon-3.png" alt="">
+                    <h3>Đầu bếp chuyên nghiệp</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Kết thúc trang Về chúng tôi -->
+
+    <!-- Trang Món ngon  -->
+
+    <section class="food" id="food">
+
+        <div class="heading">
+            <span>Món ngon</span>
+            <h3>Những món ngon được ưa chuộng nhất</h3>
+        </div>
+
+        <div class="swiper food-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" data-name="food-1">
+                    <img src="images/food-img-1.png" alt="">
+                    <h3>Bào ngư xào thập cẩm</h3>
+                    <div class="price">150.000Đ</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-2">
+                    <img src="images/food-img-2.png" alt="">
+                    <h3>Kim chi cải thảo</h3>
+                    <div class="price">130.000Đ</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-3">
+                    <img src="images/food-img-3.png" alt="">
+                    <h3>Gà chiên muối ớt</h3>
+                    <div class="price">80.000Đ</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-4">
+                    <img src="images/food-img-4.png" alt="">
+                    <h3>Sasimi cá hồi</h3>
+                    <div class="price">135.000Đ</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-5">
+                    <img src="images/food-img-5.png" alt="">
+                    <h3>Bò bít tết</h3>
+                    <div class="price">120.000Đ</div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- Kết thúc trang Món ngon -->
+
+    <!-- Thiết kế phần xem trước khi chọn món trong trang Món ngon -->
+
+    <section class="food-preview-container">
+
+        <div id="close-preview" class="fas fa-times"></div>
+
+        <div class="food-preview" data-target="food-1">
+            <img src="images/food-img-1.png" alt="">
+            <h3>Bào ngư xào thập cẩm</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Món ngon</p>
+            <div class="price">150.000Đ</div>
+            <a href="#" class="btn">Mua ngay</a>
+        </div>
+
+        <div class="food-preview" data-target="food-2">
+            <img src="images/food-img-2.png" alt="">
+            <h3>Kim chi cải thảo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Món ngon</p>
+            <div class="price">130.000Đ</div>
+            <a href="#" class="btn">Mua ngay</a>
+        </div>
+
+        <div class="food-preview" data-target="food-3">
+            <img src="images/food-img-3.png" alt="">
+            <h3>Gà chiên muối ớt</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Món ngon</p>
+            <div class="price">80.000Đ</div>
+            <a href="#" class="btn">Mua ngay</a>
+        </div>
+
+        <div class="food-preview" data-target="food-4">
+            <img src="images/food-img-4.png" alt="">
+            <h3>Sasimi cá hồi</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Món ngon</p>
+            <div class="price">135.000Đ</div>
+            <a href="#" class="btn">Mua ngay</a>
+        </div>
+
+        <div class="food-preview" data-target="food-5">
+            <img src="images/food-img-5.png" alt="">
+            <h3>Bò bít tết</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Món ngon</p>
+            <div class="price">120.000Đ</div>
+            <a href="#" class="btn">Mua ngay</a>
+        </div>
+
+    </section>
+
+    <!-- Kết thúc phần thiết kế giao diện chọn món -->
+
+    <!-- Trang món ăn phổ biến -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="heading">
+            <span>Bộ sưu tầm</span>
+            <h3>Những món ngon nổi tiếng</h3>
+        </div>
+
+        <div class="gallery-container">
+
+            <a href="images/food-galler-img-1.jpg" class="box">
+                <img src="images/food-galler-img-1.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+
+            <a href="images/food-galler-img-2.jpg" class="box">
+                <img src="images/food-galler-img-2.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+
+            <a href="images/food-galler-img-3.jpg" class="box">
+                <img src="images/food-galler-img-3.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+
+            <a href="images/food-galler-img-4.jpg" class="box">
+                <img src="images/food-galler-img-4.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+
+            <a href="images/food-galler-img-5.jpg" class="box">
+                <img src="images/food-galler-img-5.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+
+            <a href="images/food-galler-img-6.jpg" class="box">
+                <img src="images/food-galler-img-6.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Phần kết thúc trang Món ngon phổ biến -->
+
+    <!-- Trang thực đơn  -->
+
+    <section class="menu" id="menu">
+
+        <div class="heading">
+            <span>Thực đơn</span>
+            <h3>Cho các thời điểm trong ngày</h3>
+        </div>
+
+        <div class="swiper menu-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <h3 class="title">Bữa sáng</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>Xôi gà</h3>
+                                <p>Phần xôi thơm dẻo và nóng hổi, ăn kèm với thịt gà chín mềm</p>
+                            </div>
+                            <div class="price">50.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Bún bò Huế</h3>
+                                <p>Món ăn đậm đà khó cưỡng trong những buổi sáng se lạnh</p>
+                            </div>
+                            <div class="price">30.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Bún tiêu cua</h3>
+                                <p>Thanh ngọt từ nước dùng, chả riêu hấp béo mềm, độ dai mềm từ chả lụa</p>
+                            </div>
+                            <div class="price">50.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Cơm chiên hải sản</h3>
+                                <p>Hạt cơm tơi giòn, lạp xưởng, mực và tôm tươi mang hương vị khó quên</p>
+                            </div>
+                            <div class="price">60.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Bánh mỳ thịt bò nướng</h3>
+                                <p>Bánh mì thịt nướng thơm ngon, đậm đà hương vị.</p>
+                            </div>
+                            <div class="price">25.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Bánh cuốn</h3>
+                                <p>Ăn kèm với thịt băm, chả lụa, nem chua</p>
+                            </div>
+                            <div class="price">20.000Đ</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h3 class="title">Bữa trưa</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>Cơm tấm</h3>
+                                <p>Cơm với sườn cốt lết nướng, thêm trứng, bì chả</p>
+                            </div>
+                            <div class="price">30.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Cơm trộn Hàn Quốc</h3>
+                                <p>Món ăn đặc trưng mang đậm nền ẩm thực Hàn Quốc</p>
+                            </div>
+                            <div class="price">40.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Mỳ Ý</h3>
+                                <p>Nước sốt cà chua, thịt bò bằm cùng sợi mì dai tạo trải nghiệm khó quên</p>
+                            </div>
+                            <div class="price">45.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Bánh canh bò viên</h3>
+                                <p>Đặc sản An Giang</p>
+                            </div>
+                            <div class="price">40.000Đ</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h3 class="title">Bữa tối</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>Gà rang húng quế</h3>
+                                <p>Vừa thơm ngon đậm đà vừa thoang thoảng mùi húng quế dễ chịu</p>
+                            </div>
+                            <div class="price">40.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Hủ tiếu bò kho</h3>
+                                <p>Món ăn hấp dẫn với hương vị thơm ngon và nước dùng đậm đà</p>
+                            </div>
+                            <div class="price">30.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Ốc xào sả ớt</h3>
+                                <p>Món ngon buổi tối đơn giản cho thực đơn đậm đà nhẹ bụng</p>
+                            </div>
+                            <div class="price">43.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Chân giò hầm hạt sen</h3>
+                                <p>Món ăn vô cùng bổ dưỡng dùng để tẩm bổ cho cơ thể</p>
+                            </div>
+                            <div class="price">50.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Canh đậu phụ kim chi Hàn Quốc</h3>
+                                <p>Kim chi ngon chua cay vừa miệng nấu cùng đậu phụ, nấm hương, nấm kim châm</p>
+                            </div>
+                            <div class="price">130.000Đ</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h3 class="title">Đồ uống</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>Sữa tươi trân châu đường đen</h3>
+                                <p>Vị sữa thơm ngậy, trân châu giòn ngon ngấm vị đường đen</p>
+                            </div>
+                            <div class="price">25.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Trà hoa quả nhiệt đới</h3>
+                                <p>Vị chua, ngọt hoa quả với vị chát của trà mang đến cảm giác sảng khoái</p>
+                            </div>
+                            <div class="price">35.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Cacao</h3>
+                                <p>Ngon, bổ dưỡng, giàu protein, giúp trung hòa lượng mỡ trong máu</p>
+                            </div>
+                            <div class="price">25.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Socola đá xay</h3>
+                                <p>Vừa mát lạnh xua tan cái nóng, vừa thơm béo đủ dinh dưỡng</p>
+                            </div>
+                            <div class="price">30.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Soda việt quất</h3>
+                                <p>Tươi mát, vừa nhanh gọn vừa dễ uống</p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Matcha đá xay</h3>
+                                <p>Hơi ngọt, sệt như kem, có vị chát nhẹ đặc trưng của trà xanh và dịu nhẹ</p>
+                            </div>
+                            <div class="price">35.000Đ</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h3 class="title">Món tráng miệng</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>Chè khúc bạch</h3>
+                                <p>Kết hợp hài hòa của nước đường phèn ngọt thanh, thơm thoảng mùi vải</p>
+                            </div>
+                            <div class="price">15.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Chè nhãn nhục</h3>
+                                <p>Giúp giải nhiệt cơ thể, thích hợp ăn vào những chiều nắng nóng, oi bức.</p>
+                            </div>
+                            <div class="price">15.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Bánh chuối hấp nước cốt dừa</h3>
+                                <p>Mềm, dẻo và ngọt vừa ăn</p>
+                            </div>
+                            <div class="price">15.000Đ</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>Chè vải hạt sen</h3>
+                                <p>Thanh nhiệt cơ thể, giúp cải thiện giấc ngủ</p>
+                            </div>
+                            <div class="price">15.000Đ</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- Kết thúc trang Thực đơn -->
+
+    <!-- Trang Đặt món  -->
+
+    <section class="order" id="order">
+
+        <div class="heading">
+            <span>Đặt ngay</span>
+            <h3>Giao đến tận nhà của bạn một cách nhanh chóng nhất</h3>
+        </div>
+
+        <form action="">
+            <div class="box-container">
+                <div class="box">
+                    <div class="inputBox">
+                        <span>Tên bạn là</span>
+                        <input type="text" placeholder="Nhập tên của bạn">
+                    </div>
+                    <div class="inputBox">
+                        <span>Món ăn bạn muốn</span>
+                        <input type="text" placeholder="Nhập tên món ăn">
+                    </div>
+                    <div class="inputBox">
+                        <span>Yêu cầu thêm về món ăn</span>
+                        <input type="text" placeholder="Nhập chi tiết">
+                    </div>
+                    <div class="inputBox">
+                        <span>Địa chỉ của bạn</span>
+                        <textarea name="" placeholder="Nhập địa chỉ hiện tại" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inputBox">
+                        <span>Số điện thoại</span>
+                        <input type="number" placeholder="Nhập số điện thoại của bạn">
+                    </div>
+                    <div class="inputBox">
+                        <span>Bạn muốn bao nhiêu</span>
+                        <input type="number" placeholder="Nhập số lượng">
+                    </div>
+                    <div class="inputBox">
+                        <span>Bạn muốn chúng tôi vận chuyển trong thời gian nào</span>
+                        <input type="datetime-local">
+                    </div>
+                    <div class="inputBox">
+                        <span>Địa chỉ của chúng tôi</span>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15342.955240961428!2d108.2532374!3d15.9750106!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1295cb3d313469c9!2sVietnam%20-%20Korea%20University%20of%20Information%20and%20Communication%20Technology.!5e0!3m2!1sen!2s!4v1653636512709!5m2!1sen!2s"
+                            width="600" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Đặt ngay bây giờ" class="btn">
+        </form>
+
+    </section>
+
+    <!-- Kết thúc trang đặt món -->
+
+    <!-- Trang Blogs  -->
+
+    <section class="blogs" id="blogs">
+
+        <div class="heading">
+            <span>Các bài viết</span>
+            <h3>Mới nhất của chúng tôi</h3>
+        </div>
+
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-1.jpg" alt="">
+                        <span>Burger</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 05 tháng 05, 2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> admin </a>
+                        </div>
+                        <a href="#" class="title">Yếu tố tạo nên Burger hoàn hảo</a>
+                        <p>Chọn các nguyên liệu hàng đầu, chất lượng. Bánh mì kẹp thịt phải có sự pha trộn hài hòa của...</p>
+                        <a href="#" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-2.jpg" alt="">
+                        <span>sandwich</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 05 tháng 05, 2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> admin </a>
+                        </div>
+                        <a href="#" class="title">Sandwich Ra Đời Như Thế Nào?</a>
+                        <p>Bánh mì sandwich là gì? Hầu hết mọi người không bao giờ dừng lại để tự hỏi mình câu hỏi này...</p>
+                        <a href="#" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-3.jpg" alt="">
+                        <span>Gà rán</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 05 tháng 05, 2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> admin </a>
+                        </div>
+                        <a href="#" class="title">Mẹo ăn gà rán không tăng cân</a>
+                        <p>Làm cách nào để khi ăn gà rán mà vẫn không bị mập? Bí quyết đó chính là mỗi ngày nên ăn 1 miếng và...</p>
+                        <a href="#" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-4.jpg" alt="">
+                        <span>Kem ốc quế</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 05 tháng 05, 2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> admin </a>
+                        </div>
+                        <a href="#" class="title">Một cây kem ốc quế bao nhiêu calo</a>
+                        <p>Đối với những người thích ăn kem thì vấn đề 1 que kem bao nhiêu calo được quan tâm rất nhiều...</p>
+                        <a href="#" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-5.jpg" alt="">
+                        <span>Pizza</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 05 tháng 05, 2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> admin </a>
+                        </div>
+                        <a href="#" class="title">Các loại pizza ngon nên nếm thử</a>
+                        <p>Pizza hiện đang là một món ăn khá phổ biến ở khắp nơi trên thế giới và Việt Nam cũng là một...</p>
+                        <a href="#" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-6.jpg" alt="">
+                        <span>Cà phê</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 05 tháng 05, 2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> admin </a>
+                        </div>
+                        <a href="#" class="title">Yếu tố tạo ra cốc cà phê ngon</a>
+                        <p>Thế nào là cà phê ngon? Sạch, tươi mới kết hợp với sự cân bằng của hương thơm...</p>
+                        <a href="#" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- Kết thúc trang Blogs -->
+
+    <!-- Phần chân trang  -->
+
+    <section class="footer">
+
+        <div class="icons-container">
+
+            <div class="icons">
+                <i class="fas fa-clock"></i>
+                <h3>Giờ mở cửa</h3>
+                <p>07:00 sáng đến 10:00 tối</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>Điện thoại</h3>
+                <p>+84-1234-5678</p>
+                <p>+84-9876-3215</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>restaurant-food@gmail.com</p>
+                <p>restaurant-food-bwd@gmail.com</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <h3>Địa chỉ</h3>
+                <p>Trường ĐH CNTT & TT Việt-Hàn</p>
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="https://www.facebook.com/restaurantBWD/" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/TiNguyn99630653" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/restaurantfoodx/?hl=en" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/restaurant-food-b28338240/" class="fab fa-linkedin"></a>
+        </div>
+
+        <div class="credit"> Website được tạo bởi <span>nhóm HTBQ</span> | Trong cuộc thi BWD </div>
+
+    </section>
+
+    <!-- Kết thúc phần chân trang  -->
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <!-- Link JavaScript  -->
+    <script src="js/script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>
+
+</body>
+
+</html>
